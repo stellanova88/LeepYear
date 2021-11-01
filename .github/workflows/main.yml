@@ -36,5 +36,3 @@ jobs:
         run: |
           pytest
         #poetry run pytest -r w
-          
-          echo Running tests 
