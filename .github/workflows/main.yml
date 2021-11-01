@@ -19,13 +19,13 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.10'
-      #- name: Install poetry
-      #  uses: abatilo/actions-poetry@v2.0.0
-      #  with: 
-          poetry-version: '1.1.11'
-      #- name: Build poetry
-      #  run: |
-      #      poetry install
+     # - name: Install poetry
+     #   uses: abatilo/actions-poetry@v2.0.0
+     #   with: 
+     #     poetry-version: '1.1.11'
+     # - name: Build poetry
+     #   run: |
+     #       poetry install
         
       # Runs a single command using the runners shell
       - name: Run a one-line script
@@ -34,5 +34,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run tests
         run: |
-          pytest -r w
+        #poetry run pytest -r w
+          pytest
           echo Running tests 
