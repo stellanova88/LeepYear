@@ -3,6 +3,7 @@ name: CI Run test when new pushing new commit
 # Controls when the workflow will run
 on:  [push]
   
+
 jobs:
   # This workflow contains a single job called "build"
   build:
@@ -31,8 +32,10 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
+
       # Runs a set of commands using the runners shell
       - name: Run tests
         run: |
           poetry run pytest -r w
           echo Running tests 
+
