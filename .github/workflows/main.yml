@@ -34,5 +34,5 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run tests
         run: |
-          poetry run pytest -r w
+          pytest -r w
           echo Running tests 
