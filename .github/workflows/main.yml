@@ -27,7 +27,7 @@ jobs:
 
       - name: Flake
         run: |
-          pip install flake 8
+          pip install flake8
           flake8 .
 
       # Runs a set of commands using the runners shell
