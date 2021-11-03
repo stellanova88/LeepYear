@@ -39,4 +39,3 @@ def test_negative_number_divided_with_negative_gives_positive_number():
     assert divide(-8, -2) == 4
     assert divide(-2, -1) == 2
     assert divide(-3, -3) == 1
-
