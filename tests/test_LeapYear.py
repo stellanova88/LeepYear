@@ -24,3 +24,4 @@ def test_year_is_not_leap_year_when_divisible_by_4():
     assert not is_leap_year(1701)
     assert not is_leap_year(3)
     assert not is_leap_year(2021)
+
