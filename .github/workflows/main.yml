@@ -28,6 +28,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run tests
         run: |
+          pip install pytest
           pytest -m pytest tests/
           pytest --cov=tests/
         #poetry run pytest -r w
